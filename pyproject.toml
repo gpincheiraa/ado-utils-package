@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "ado-utils"
+name = "adoutils"
 version = "0.1.0"
 authors = [
   { name="Gonzalo Pincheira", email="g.pincheira.a@gmail.com" },
