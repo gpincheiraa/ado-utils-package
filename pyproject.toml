@@ -16,11 +16,10 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-dynamic = ["dependencies"]
+dependencies = [
+    "num2words==0.5.12"
+]
 
 [project.urls]
 "Homepage" = "https://github.com/gpincheiraa/ado-utils"
 "Bug Tracker" = "https://github.com/gpincheiraa/ado-utils/issues"
-
-[tool.setuptools.dynamic]
-dependencies = {file = ["requirements.txt"]}
