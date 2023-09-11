@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "adoutils"
-version = "0.1.0"
+version = "0.2.0"
 authors = [
-  { name="Gonzalo Pincheira", email="g.pincheira.a@gmail.com" },
+    { name="Gonzalo Pincheira", email="g.pincheira.a@gmail.com" },
 ]
 description = "A small example package"
 readme = "README.md"
@@ -16,7 +16,11 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+dynamic = ["dependencies"]
 
 [project.urls]
 "Homepage" = "https://github.com/gpincheiraa/ado-utils"
 "Bug Tracker" = "https://github.com/gpincheiraa/ado-utils/issues"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
