@@ -1,2 +1,2 @@
-def lib_from_package():
+def data_validator():
     print("Hello from Python Package")
